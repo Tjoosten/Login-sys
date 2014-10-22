@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Login + backend system for codeigniter
 ======================================
 
