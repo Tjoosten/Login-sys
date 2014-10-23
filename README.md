@@ -8,6 +8,7 @@ You can easely include this in CodeIgniter V3 Dev.
 
 **Via browser:**
 You can install the required database simply trough the browser.
+
 1. Run `<url>/index.php/Database_config`
 
 **Via MySQL (Command-line):**
