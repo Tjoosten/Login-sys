@@ -6,14 +6,14 @@ You can easely include this in CodeIgniter V3 Dev.
 
 ### Installation Methods
 
-*Via browser:*
+**Via browser:**
 You can install the required database simply trough the browser.
-Run `<url>/index.php/Database_config`
+1. Run `<url>/index.php/Database_config`
 
-*Via MySQL (Command-line):*
+**Via MySQL (Command-line):**
 
-1) Upload the `.SQL` file to your webserver.
-2) Connect with the server trough SSH
-3) execute `mysql -u 'MySQL user' < /path/to/Database.sql`
+1. Upload the `.SQL` file to your webserver.
+2. Connect with the server trough SSH
+3. execute `mysql -u 'MySQL user' < /path/to/Database.sql`
 
  
