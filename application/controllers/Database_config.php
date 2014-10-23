@@ -9,6 +9,7 @@
     public function index() {
     	$this->Setup->CreateDB(); 
     	$this->Setup->CreateTB(); 
+      $this->Setup->Insert();
 
     	$this->load->view('Notice_DB');
     }

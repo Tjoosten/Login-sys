@@ -5,10 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Simple login system for CodeIgniter">
+    <meta name="author" content="Tim Joosten">
     
     <link rel="icon" href="/assets/ico/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Costum styles -->
+    <style type="text/css">
+      body {
+        margin-top: 65px;
+      } 
+    </style>
 
     <title>Login system for CodeIgniter.</title>
   </head>
@@ -28,19 +36,13 @@
           <ul class="nav navbar-nav navbar-right">
             <li>
               <a title="Create new user" href="">
-                <span class="octicon octicon-"></span>
-              </a>
-            </li>
-
-            <li>
-              <a title="users list" href="">
-                <span class="octicon octicon-organization"></span>
+                Create new user
               </a>
             </li>
 
             <li>
               <a title="Logged out" href="/index.php/home/logout">
-                <span class="octicon octicon-"></span>
+                Logout
               </a>
             </li>
           </ul>
@@ -56,7 +58,7 @@
           </div>
 
           <p class="lead">Hello <?php echo $username; ?></p>
-          <p></p>
+          <p><a class="btn btn-danger" href="/index.php/home/logout">Log out!</a></p>
 
         </div>
       </div>

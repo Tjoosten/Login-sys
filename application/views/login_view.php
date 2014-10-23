@@ -5,14 +5,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Simple login system for CodeIgniter">
+    <meta name="author" content="Tim Joosten">
     
     <link rel="icon" href="/assets/ico/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
     <!-- Costum Styles -->
     <style type="text/css">
-      .padding-top {
+      body {
         padding-top: 65px;
       }
     </style>
@@ -48,15 +49,15 @@
 
           <?php echo form_open('verifylogin'); ?>
             <label for="username">Username:</label>
-            <input class="form-control" type="text" size="20" id="username" name="username"/>
+            <input pass="Username" class="form-control" type="text" size="20" id="username" name="username"/>
             <br/>
             
-            <label for="password">Password:</label>
-            <input class="form-control" type="password" size="20" id="passowrd" name="password"/>
+            <label for="Password">Password:</label>
+            <input placeholder="Password" class="form-control" type="password" size="20" id="passowrd" name="password"/>
             <br/>
 
-            <input type="submit" value="Login!" />
-            <input type="reset" value="Reset!" />
+            <input class="btn btn-default" type="submit" value="Login!" />
+            <input class="btn btn-default" type="reset" value="Reset!" />
           </form>
 
         </div>

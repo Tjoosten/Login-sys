@@ -12,10 +12,18 @@
         $data['username'] = $session_data['username'];
         $this->load->view('home_view', $data);
       } else {
-        //If no session, redirect to login page
+        // If no session, redirect to login page
         redirect('login', 'refresh');
 	    }
     }
+
+    /* function New_user() {
+      if($this->session->userdata('logged_in')) {
+
+      } else {
+        // If no session, redirect to login page.
+      }
+    } */
   
     function logout() {
       $this->session->unset_userdata('logged_in');
