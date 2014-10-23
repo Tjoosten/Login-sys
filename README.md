@@ -10,7 +10,8 @@ You can easely include this in CodeIgniter V3 Dev.
 
 You can install the required database simply trough the browser.
 
-1. Run `<url>/index.php/Database_config`
+1. Add database credentials to `application/config/database.php`
+2. Run `<url>/index.php/Database_config`
 
 **Via MySQL (Command-line):**
 

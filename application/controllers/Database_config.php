@@ -7,7 +7,10 @@
     }
 
     public function index() {
-    	$this->Setup->
+    	$this->Setup->CreateDB(); 
+    	$this->Setup->CreateTB(); 
+
+    	$this->load->view('Notice_DB');
     }
   }
 ?>

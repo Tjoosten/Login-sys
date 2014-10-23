@@ -56,6 +56,7 @@
           </div>
 
           <p class="lead">Hello <?php echo $username; ?></p>
+          <p></p>
 
         </div>
       </div>
