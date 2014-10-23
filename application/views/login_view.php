@@ -10,6 +10,13 @@
     
     <link rel="icon" href="/assets/ico/favicon.ico">
 
+    <!-- Costum Styles -->
+    <style type="text/css">
+      .padding-top {
+        padding-top: 65px;
+      }
+    </style>
+
     <title>Login system for CodeIgniter.</title>
   </head>
   <body>
@@ -41,11 +48,11 @@
 
           <?php echo form_open('verifylogin'); ?>
             <label for="username">Username:</label>
-            <input type="text" size="20" id="username" name="username"/>
+            <input class="form-control" type="text" size="20" id="username" name="username"/>
             <br/>
             
             <label for="password">Password:</label>
-            <input type="password" size="20" id="passowrd" name="password"/>
+            <input class="form-control" type="password" size="20" id="passowrd" name="password"/>
             <br/>
 
             <input type="submit" value="Login!" />
