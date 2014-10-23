@@ -1,8 +1,13 @@
-<?php 
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+ 	class Home extends CI_Controller {
+    
+    function __construct() {
+      parent::__construct();
+      $this->load->model('db_setup','Setup');
+    }
 
-/*
- * @Author: Tim Joosten
- * @License: Apache license
- * @System: Login system for codeigniter
- * @Package: config script for login database
- */
+    public function index() {
+    	$this->Setup->
+    }
+  }
+?>
